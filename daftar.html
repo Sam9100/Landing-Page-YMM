@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Daftar</title>
+    <link rel="stylesheet" href="/css/daftar.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+</head>
+<body>
+    <section>
+        <form>
+            <h1>Pendaftaran Member YMM</h1>
+            <div class="inputbox">
+                <input type="text" id="fullname" required />
+                <label for="fullname">Nama Lengkap</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="shortname" required />
+                <label for="shortname">Nama Panggilan</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" id="email" required />
+                <label for="email">Email</label>
+            </div>
+            <br>
+            <button id="registerButton" type="submit" class="btn">Daftar</button> <br><br>
+            <button type="button" class="btn" onclick="location.href='index.html'">
+                Kembali ke Menu Awal
+            </button>
+        </form>
+    </section>
+
+    <script src="/js/daftar.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="nomodule" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
